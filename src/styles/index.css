@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Nippo2;
+  src: url(../../src/utils/Fonts/Nippo2.ttf);
+}
+
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url(../../src/utils/Fonts/SpaceGrotesk.ttf);
+}
+
+:root {
+  font-family: Nippo2, SpaceGrotesk, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-weight: 400; */
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #000; */
+}
+
+body {
+  margin: 0;
+  /* remove when making dark mode */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
